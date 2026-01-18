@@ -1,0 +1,10 @@
+# Ignore PSD files
+*.psd
+
+# Ignore zip files
+*.zip
+
+# Optional
+node_modules/
+.DS_Store*.psd
+*.psd
