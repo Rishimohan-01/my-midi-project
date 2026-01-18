@@ -73,6 +73,11 @@ body {
     letter-spacing: 0.3px;
     line-height: 40px;
     transition: 350ms;
+	padding: 0px;
+}
+
+.navbar .nav-link {
+  white-space: nowrap;
 }
 
 .navbar-nav .nav-link.active {
@@ -89,11 +94,29 @@ body {
 	text-decoration: none;
 }
 
+.dropdown-item {
+  white-space: nowrap;
+    padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.dropdown-item:hover {
+  color: #fff;
+  padding-left: 24px;
+}
+
 .dropdown-menu {
-	border-radius: 0px;
+    min-width: 260px !important;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  padding: 8px 10px;
 	border-top: 2px solid #1976d2;
 	background-color: #ffffff;
-	padding: 0px 20px;
+	/* margin-top: 6px !important; */
 }
 
 .dropdown-menu .dropdown-item {
@@ -101,13 +124,6 @@ body {
 }
 .dropdown-menu .dropdown-item:hover {
 	color: #687786;
-}
-
-.dropdown-menu li a {
-	width: 200px;
-	padding: 0px;
-	outline: none;
-	border-bottom: 1px solid #212529;
 }
 
 .dropdown-menu li:last-child a {
@@ -674,4 +690,8 @@ body {
 /* Hide Bootstrap carousel indicators */
 .carousel-indicators {
 	display: none !important;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+	color: #fff;
 }
