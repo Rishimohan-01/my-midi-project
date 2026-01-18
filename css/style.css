@@ -67,12 +67,12 @@ body {
 
 .navbar ul li a {
 	color: #ffffff;
-	font-size: 12px;
-	font-weight: 500;
-	text-transform: uppercase;
-	letter-spacing: -0.2px;
-	line-height: 40px;
-	transition: 350ms;
+	font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    line-height: 40px;
+    transition: 350ms;
 }
 
 .navbar-nav .nav-link.active {
@@ -84,8 +84,9 @@ body {
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.nav-link:hover {
-	color: #1976d2;
+.nav-link:focus, .nav-link:hover {
+	color: #fff;
+	text-decoration: none;
 }
 
 .dropdown-menu {
