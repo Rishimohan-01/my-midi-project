@@ -489,7 +489,7 @@ body {
 /* Hover Effect */
 .scheme-card:hover {
 	transform: translateY(-10px);
-	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+	box-shadow: 20px 20px 10px rgba(174, 166, 106, 0.7);
 }
 
 .scheme-card h5 {
@@ -503,7 +503,6 @@ body {
 /* footer section start */
 
 .dark-footer {
-	/* background: linear-gradient(135deg, #1d3557, #addfff); */
 	background: #e4e1cd;
 	color: #fff;
 	padding: 60px 0px;
