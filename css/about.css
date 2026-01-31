@@ -277,8 +277,23 @@ body {
 /* Hero section end */
 
 /* about section link css start here */
+.left-sidebar {
+	border-radius: 8px;
+	border: none;
+	background-color: #ffffff;
+}
+.list-group-item.active {
+	background-color: #534e2d;
+	border-color: #534e2d;
+	color: #fff;
+}
+.list-group-item.active:hover {
+	background-color: #402f1c;
+	border-color: #402f1c;
+	color: #fff;
+}
 
-/* ceo desk css start */
+/* ceo desk start */
 .ceo-desk {
 	background: #f8f9fa;
 	padding: 60px 0;
@@ -286,30 +301,73 @@ body {
 .ceo-desk .space {
 	height: 60px;
 }
+.ceo-desk h3 {
+	color: #1d3557;
+}
 .ceo-desk .ceo-img {
 	max-height: auto;
 	object-fit: cover;
 }
-.left-sidebar {
-    border-radius: 8px;
-    border: none;
-    background-color: #ffffff;
+
+/* ceo desk end */
+
+/* vision mission start */
+.vision-mission-section {
+	padding: 60px 0;
 }
-.list-group-item.active {
-	background-color: #534e2d;
-	border-color: #534e2d;
-	color: #fff;
+.vision-mission-section .space {
+	height: 60px;
 }
-/* ceo desk css end */
+/* vision mission end */
 
 /* client partners start */
+
+.clients-partners-section {
+	background: #f8f9fa;
+	padding: 60px 0;
+}
+.clients-partners-section .space {
+	height: 60px;
+}
+.clients-partners-section h3 {
+	color: #1d3557;
+}
+.logo-card {
+	border: 2px solid #b5ae77;
+	border-radius: 15px;
+	padding: 15px;
+	height: 130px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #fff;
+	transition: all 0.3s ease;
+}
+
+.logo-card img {
+	max-width: 100%;
+	max-height: 90px;
+	object-fit: contain;
+}
+
+.logo-card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
 /* client partners end */
 
 /* terms start */
+.terms-section {
+	background: #f8f9fa;
+	padding: 60px 0;
+}
+.terms-section .space {
+	height: 60px;
+}
+.terms-section h3 {
+	color: #1d3557;
+}
 /* terms end */
-
-/* vision mission start */
-/* vision mission end */
 
 /* about section link css end here */
 
