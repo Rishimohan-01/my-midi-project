@@ -318,6 +318,25 @@ body {
 .vision-mission-section .space {
 	height: 60px;
 }
+.vision-mission-section h3 {
+	color: #1d3557;
+}
+.message-box-1,
+.message-box-2,
+.message-box-3 {
+	padding: 40px 0px;
+}
+.message-box {
+	color: #1d3557;
+	background: #b5ae77;
+	padding: 30px 20px;
+	margin: 20px 0;
+	border-radius: 8px;
+	box-shadow: 0 10px 25px rgba(181,174,119,0.5);
+}
+.vision-img-1 {
+	margin-bottom: 20px;
+}
 /* vision mission end */
 
 /* client partners start */
