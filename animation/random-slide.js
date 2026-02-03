@@ -15,31 +15,34 @@ const directions = [
 ];
 
 const img = document.getElementById("randomSliderImg");
-let currentIndex = 0;
+if (!img) {
+  // This script can be included on pages without the slider image.
+} else {
+  let currentIndex = 0;
 
-function getRandomIndex() {
-  let newIndex;
-  do {
-    newIndex = Math.floor(Math.random() * images.length);
-  } while (newIndex === currentIndex);
-  return newIndex;
+  function getRandomIndex() {
+    let newIndex;
+    do {
+      newIndex = Math.floor(Math.random() * images.length);
+    } while (newIndex === currentIndex);
+    return newIndex;
+  }
+
+  setInterval(() => {
+    const dir = directions[Math.floor(Math.random() * directions.length)];
+    const nextIndex = getRandomIndex();
+
+    // slide out
+    img.style.opacity = "0";
+    img.style.transform = `translate(${dir.x}, ${dir.y})`;
+
+    setTimeout(() => {
+      currentIndex = nextIndex;
+      img.src = images[currentIndex];
+
+      // slide in
+      img.style.transform = "translate(0,0)";
+      img.style.opacity = "1";
+    }, 800);
+  }, 3000);
 }
-
-setInterval(() => {
-  const dir = directions[Math.floor(Math.random() * directions.length)];
-  const nextIndex = getRandomIndex();
-
-  // slide out
-  img.style.opacity = "0";
-  img.style.transform = `translate(${dir.x}, ${dir.y})`;
-
-  setTimeout(() => {
-    currentIndex = nextIndex;
-    img.src = images[currentIndex];
-
-    // slide in
-    img.style.transform = "translate(0,0)";
-    img.style.opacity = "1";
-  }, 800);
-
-}, 3000);
