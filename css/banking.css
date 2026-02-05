@@ -1,0 +1,81 @@
+/* msme act section CSS */
+
+/* Left side bar start */
+.left-sidebar {
+	border-radius: 8px;
+	border: none;
+	background-color: #ffffff;
+}
+.list-group-item.active {
+	background-color: #534e2d;
+	border-color: #534e2d;
+	color: #fff;
+}
+.list-group-item.active:hover {
+	background-color: #402f1c;
+	border-color: #402f1c;
+	color: #fff;
+}
+/* Left side bar end */
+
+
+/* MSME ACT CSS START HERE */
+.msme-act-section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}  
+
+.msme-act-section .space {
+    height: 60px;
+}
+
+.msme-act-section .content-box h2 {
+    font-size: 32px;
+    font-weight: bold;
+   text-transform: uppercase;
+}
+
+.msme-act-section .content-box h6 {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.msme-act-section .content-box h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.msme-act-section table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.msme-act-section .content-box .table-space {
+    height: 20px;
+}
+
+.msme-act-section .content-box table h4 {
+    margin: 0px;
+    font-size: 16px;
+}
+
+.msme-act-section .content-box table th {
+    background-color: #534e2d;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+}
+
+.msme-act-section .content-box table td {
+    padding: 12px;
+    text-align: center;
+    background-color: #b5ae77;
+}
+/* MSME ACT CSS END HERE */
+
