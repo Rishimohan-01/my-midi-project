@@ -1,4 +1,4 @@
-const images = [
+﻿const images = [
   "images/activities/1.jpeg",
   "images/activities/2.jpeg",
   "images/activities/4.jpeg",
@@ -46,3 +46,4 @@ if (!img) {
     }, 800);
   }, 3000);
 }
+

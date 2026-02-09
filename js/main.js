@@ -1,4 +1,4 @@
-window.addEventListener("scroll", function () {
+﻿window.addEventListener("scroll", function () {
     const navbar = document.getElementById("mainNavbar");
     if (!navbar) {
         return;
@@ -34,3 +34,4 @@ if (window.jQuery && $.fn && typeof $.fn.slick === "function") {
         });
     }
 }
+

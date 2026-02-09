@@ -1,4 +1,4 @@
-/* msme act section CSS */
+﻿/* msme act section CSS */
 
 /* Left side bar start */
 .left-sidebar {
@@ -18,64 +18,170 @@
 }
 /* Left side bar end */
 
-
 /* MSME ACT CSS START HERE */
 .msme-act-section {
-    padding: 60px 0;
-    background-color: #f9f9f9;
-}  
+	padding: 60px 0;
+}
 
 .msme-act-section .space {
-    height: 60px;
+	height: 60px;
 }
 
 .msme-act-section .content-box h2 {
-    font-size: 32px;
-    font-weight: bold;
-   text-transform: uppercase;
+	font-size: 32px;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 .msme-act-section .content-box h6 {
-    font-size: 18px;
-    line-height: 1.6;
+	font-size: 18px;
+	line-height: 1.6;
 }
 
 .msme-act-section .content-box h4 {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
 }
 
 .msme-act-section table {
-    width: 100%;
-    border-collapse: collapse;
-    border-spacing: 0;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	overflow: hidden;
 }
 
 .msme-act-section .content-box .table-space {
-    height: 20px;
+	height: 20px;
 }
 
 .msme-act-section .content-box table h4 {
-    margin: 0px;
-    font-size: 16px;
+	margin: 0px;
+	font-size: 16px;
 }
 
 .msme-act-section .content-box table th {
-    background-color: #534e2d;
-    color: #fff;
-    font-weight: bold;
-    padding: 12px;
-    text-align: center;
+	background-color: #534e2d;
+	color: #fff;
+	font-weight: bold;
+	padding: 12px;
+	text-align: center;
 }
 
 .msme-act-section .content-box table td {
-    padding: 12px;
-    text-align: center;
-    background-color: #b5ae77;
+	padding: 12px;
+	text-align: center;
+	background-color: #b5ae77;
 }
 /* MSME ACT CSS END HERE */
 
+/* Bank Service CSS END HERE */
+
+.banking-section {
+	padding: 60px 0;
+}
+
+.banking-section .space {
+	height: 60px;
+}
+
+.banking-section .content-box h2 {
+	font-size: 32px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.banking-section .content-box h6 {
+	font-size: 18px;
+	line-height: 1.6;
+}
+
+.banking-section .bank-txt {
+	background-color: #b5ae77;
+	padding: 20px;
+	border-radius: 8px;
+}
+
+.banking-section .bank-txt p {
+	color: #00254a;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+/* Bank Service CSS END HERE */
+
+/* Corporate Finance section start here */
+.corporate-finance-section {
+	padding: 60px 0;
+}
+.corporate-finance-section .space {
+	height: 60px;
+}
+/* Corporate Finance section end here */
+
+/* Private Equity section start here */
+.private-equity-section {
+	padding: 60px 0;
+}
+.private-equity-section .space {
+	height: 60px;
+}
+/* Private Equity section end here */
+
+/* FDI SMES section Start here */
+.fdi-smes-section {
+	padding: 60px 0;
+}
+.fdi-smes-section .space {
+	height: 60px;
+}
+/* FDI SMES section End here */
+
+/* Liaison Support section Start */
+.liaison-support-section {
+	padding: 60px 0;
+}
+.liaison-support-section .space {
+	height: 60px;
+}
+/* Liaison Support section End */
+
+/* Emi Calculator Start Here */
+.emi-cal-section {
+	padding: 60px 0;
+}
+.emi-cal-section .space {
+	height: 60px;
+}
+
+.emi-card {
+	max-width: 420px;
+	margin: 40px auto;
+	background: #fff;
+	border-radius: 10px;
+	padding: 25px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+}
+.btn-calc {
+	border: 2px solid #534e2d;
+	color: #000;
+	font-weight: 600;
+}
+.btn-calc:hover {
+	background: #b5ae77;
+	color: #fff;
+}
+table td {
+	font-size: 14px;
+}
+/* Emi Calculator End Here */
+
+/* Taxation Section Start Here */
+.tax-section {
+	padding: 60px 0;
+}
+.tax-section .space {
+	height: 60px;
+}
+/* Taxation Section End Here */

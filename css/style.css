@@ -1,4 +1,4 @@
-/* 
+﻿/* 
 
 Global Styles
 ----------------------------
@@ -660,3 +660,4 @@ body {
 :not(.btn-check) + .btn:active {
 	color: #fff;
 }
+

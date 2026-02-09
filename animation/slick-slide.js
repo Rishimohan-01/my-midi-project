@@ -1,4 +1,4 @@
-// slick slider
+﻿// slick slider
 $(document).ready(function () {
     if (!($.fn && typeof $.fn.slick === "function")) {
         return;
@@ -54,4 +54,5 @@ $(document).ready(function () {
         ]
     });
 });
+
 
