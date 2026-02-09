@@ -1,0 +1,72 @@
+/* Left side bar start */
+.left-sidebar {
+	border-radius: 8px;
+	border: none;
+	background-color: #ffffff;
+}
+.list-group-item.active {
+	background-color: #534e2d;
+	border-color: #534e2d;
+	color: #fff;
+}
+.list-group-item.active:hover {
+	background-color: #402f1c;
+	border-color: #402f1c;
+	color: #fff;
+}
+/* Left side bar end */
+
+/* Biogas start here */
+.biogas-section {
+	padding: 60px 0;
+}
+.biogas-section .space {
+	height: 60px;
+}
+
+/* Biogas end here */
+
+/* Biogas cattle dung start here */
+.biogas-dung-section {
+	padding: 60px 0;
+}
+.biogas-dung-section .space {
+	height: 60px;
+}
+/* Biogas cattle dung end here */
+
+/* Biomass start here */
+.biomass-section {
+	padding: 60px 0;
+}
+.biomass-section .space {
+	height: 60px;
+}
+/* Biomass end here */
+
+/* Web designing start here */
+.business-section {
+	padding: 60px 0;
+}
+.business-section .space {
+	height: 60px;
+}
+/* Web designing end here */
+
+/* Solar Energy Start Here */
+.solar-section {
+	padding: 60px 0;
+}
+.solar-section .space {
+	height: 60px;
+}
+/* Solar Energy End Here */
+
+/* Waste Water Treatment Start Here */
+.waste-water-section {
+	padding: 60px 0;
+}
+.waste-water-section .space {
+	height: 60px;
+}
+/* Waste Water Treatment Start End */

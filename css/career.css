@@ -1,0 +1,27 @@
+/* Left side bar start */
+.left-sidebar {
+	border-radius: 8px;
+	border: none;
+	background-color: #ffffff;
+}
+.list-group-item.active {
+	background-color: #534e2d;
+	border-color: #534e2d;
+	color: #fff;
+}
+.list-group-item.active:hover {
+	background-color: #402f1c;
+	border-color: #402f1c;
+	color: #fff;
+}
+/* Left side bar end */
+
+/* Associate Faculty Start Here */
+.associate-faculty-section {
+    padding: 60px 0px;
+}
+
+.associate-faculty-section .space {
+    height: 60px;
+}
+/* Associate Faculty Start End */
