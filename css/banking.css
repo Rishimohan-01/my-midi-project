@@ -73,7 +73,7 @@
 .msme-act-section .content-box table td {
 	padding: 12px;
 	text-align: center;
-	background-color: #b5ae77;
+	background-color: #f9f6e6;
 }
 /* MSME ACT CSS END HERE */
 
@@ -98,7 +98,7 @@
 }
 
 .banking-section .bank-txt {
-	background-color: #b5ae77;
+	background-color: #f9f6e6;
 	padding: 20px;
 	border-radius: 8px;
 }
@@ -169,7 +169,7 @@
 	font-weight: 600;
 }
 .btn-calc:hover {
-	background: #b5ae77;
+	background: #f9f6e6;
 	color: #fff;
 }
 table td {

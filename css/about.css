@@ -51,7 +51,7 @@
 }
 .message-box {
 	color: #1d3557;
-	background: #b5ae77;
+	background: #f9f6e6;
 	padding: 30px 20px;
 	margin: 20px 0;
 	border-radius: 8px;
@@ -147,7 +147,7 @@
 	color: #1d3557;
 }
 .logo-card {
-	border: 2px solid #b5ae77;
+	border: 2px solid #f9f6e6;
 	border-radius: 15px;
 	padding: 15px;
 	height: 130px;
