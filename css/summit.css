@@ -1,0 +1,81 @@
+/* Left side bar start */
+.left-sidebar {
+	border-radius: 8px;
+	border: none;
+	background-color: #ffffff;
+}
+.list-group-item.active {
+	background-color: #534e2d;
+	border-color: #534e2d;
+	color: #fff;
+}
+.list-group-item.active:hover {
+	background-color: #402f1c;
+	border-color: #402f1c;
+	color: #fff;
+}
+/* Left side bar end */
+
+/* Summit 2013 Kalyan Section Start Here */
+.sme-2013-kyn-section {
+    padding: 60px 0px;
+}
+.sme-2013-kyn-section .space {
+    height: 60px;
+}
+/* Summit 2013 Kalyan Section End Here */
+
+/* Summit 2013 Vasai Section Start Here */
+.sme-2013-vasai-section {
+    padding: 60px 0px;
+}
+.sme-2013-vasai-section .space {
+    height: 60px;
+}
+/* Summit 2013 Vasai Section End Here */
+
+/* Summit 2013 Navi Mumbai Section Start Here */
+.sme-2013-navi-mumbai-section {
+    padding: 60px 0px;
+}
+.sme-2013-navi-mumbai-section .space {
+    height: 60px;
+}
+/* Summit 2013 Navi Mumbai Section End Here */
+
+/* Summit 2013 Thane Section Start Here */
+.sme-2013-thane-section {
+    padding: 60px 0px;
+}
+.sme-2013-thane-section .space {
+    height: 60px;
+}
+/* Summit 2013 Thane Section End Here */
+
+/* Summit 2014 Thane Section Start Here */
+.sme-2014-thane-section {
+    padding: 60px 0px;
+}
+.sme-2014-thane-section .space {
+    height: 60px;
+}
+/* Summit 2014 Thane Section End Here */
+
+/* Summit 2014 Navi Mumbai Section Start Here */
+.sme-2014-navi-mumbai-section {
+    padding: 60px 0px;
+}
+.sme-2014-navi-mumbai-section .space {
+    height: 60px;
+}
+/* Summit 2014 Navi Mumbai Section End Here */
+
+/* Summit 2015 Dadar Section Start Here */
+.sme-2015-ddr-section {
+    padding: 60px 0px;
+}
+.sme-2015-ddr-section .space {
+    height: 60px;
+}
+/* Summit 2015 Dadar Section End Here */
+

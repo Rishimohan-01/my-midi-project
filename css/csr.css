@@ -1,0 +1,47 @@
+/* Left side bar start */
+.left-sidebar {
+	border-radius: 8px;
+	border: none;
+	background-color: #ffffff;
+}
+.list-group-item.active {
+	background-color: #534e2d;
+	border-color: #534e2d;
+	color: #fff;
+}
+.list-group-item.active:hover {
+	background-color: #402f1c;
+	border-color: #402f1c;
+	color: #fff;
+}
+/* Left side bar end */
+
+/* CSR Support Section Start Here */
+.csr-support-section {
+	padding: 60px 0px;
+}
+
+.csr-support-section .space {
+	height: 60px;
+}
+/* CSR Support Section End Here */
+
+/* CSR Activity Section Start Here */
+.csr-activity-section {
+	padding: 60px 0px;
+}
+
+.csr-activity-section .space {
+	height: 60px;
+}
+/* CSR Activity Section End Here */
+
+/* CSR Training Section Start Here */
+.csr-training {
+    padding: 60px 0px;
+}
+
+.csr-training .space {
+    height: 60px;
+}
+/* CSR Training Section End Here */

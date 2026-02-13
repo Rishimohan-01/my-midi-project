@@ -1,0 +1,66 @@
+/* Left side bar start */
+.left-sidebar {
+	border-radius: 8px;
+	border: none;
+	background-color: #ffffff;
+}
+.list-group-item.active {
+	background-color: #534e2d;
+	border-color: #534e2d;
+	color: #fff;
+}
+.list-group-item.active:hover {
+	background-color: #402f1c;
+	border-color: #402f1c;
+	color: #fff;
+}
+/* Left side bar end */
+
+/* Traninig Section Start Here */
+.training-section {
+    padding: 60px 0px;
+}
+.training-section .space {
+    height: 60px;
+}
+/* Trainig Section End here */
+
+/* Skill Trainig Section Start here */
+.skill-training-section {
+    padding: 60px 0px;
+}
+
+.skill-training-section .space {
+    height: 60px;
+}
+/* Skill Trainig Section End here */
+
+/* Training Photo Section Start Here */
+.training-photo-section {
+    padding: 60px 0px;
+}
+
+.training-photo-section .space {
+    height: 60px;
+}
+/* Training Photo Section End Here */
+
+/* Import & Export Section Start Here */
+.import-export-section {
+    padding: 60px 0px;
+}
+
+.import-export-section .space {
+    height: 60px;
+}
+/* Import & Export Section End Here */
+
+/* Business Mentoring Section Start Here */
+.mentor-section {
+	padding: 60px 0px;
+}
+
+.mentor-section .space {
+	height: 60px;
+}
+/* Business Mentoring Section End Here */
