@@ -18,6 +18,41 @@
 }
 /* Left side bar end */
 
+/* Paragraph CSS */
+h2.head-title {
+	font-weight: bold;
+	margin-bottom: 20px;
+	color: #00254a;
+	text-transform: uppercase;
+}
+.text-bg {
+	background-color: #b5ae77;
+	padding: 20px;
+	border-radius: 8px;
+}
+.text-bg h3 {
+	color: #00254a;
+	font-size: 28px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.text-bg p {
+	color: #00254a;
+	font-size: 16px;
+}
+.text-bg img {
+	width: 100%;
+	height: 250px;
+}
+.text-bg ul li a {
+	color: #00254a;
+	font-weight: 500;
+}
+.text-bg i {
+	color: #402f1c;
+}
+/* Paragraph CSS */
+
 /* MSME ACT CSS START HERE */
 .msme-act-section {
 	padding: 60px 0;
@@ -92,13 +127,9 @@
 	font-weight: bold;
 	text-transform: uppercase;
 }
-.banking-section .content-box h6 {
-	font-size: 18px;
-	line-height: 1.6;
-}
 
 .banking-section .bank-txt {
-	background-color: #f9f6e6;
+	background-color: #b5ae77;
 	padding: 20px;
 	border-radius: 8px;
 }
@@ -107,6 +138,10 @@
 	color: #00254a;
 	font-size: 16px;
 	line-height: 1.6;
+}
+
+.chart-img {
+	width: 100%;
 }
 
 /* Bank Service CSS END HERE */
@@ -118,6 +153,7 @@
 .corporate-finance-section .space {
 	height: 60px;
 }
+
 /* Corporate Finance section end here */
 
 /* Private Equity section start here */
@@ -145,6 +181,10 @@
 .liaison-support-section .space {
 	height: 60px;
 }
+.liaison-support-section img.hand-img {
+	width: auto;
+	height: auto;
+}
 /* Liaison Support section End */
 
 /* Emi Calculator Start Here */
@@ -169,7 +209,7 @@
 	font-weight: 600;
 }
 .btn-calc:hover {
-	background: #f9f6e6;
+	background: #534e2d;
 	color: #fff;
 }
 table td {
@@ -185,3 +225,20 @@ table td {
 	height: 60px;
 }
 /* Taxation Section End Here */
+
+/* Remove bootstrap focus btn / input  */
+.btn:focus,
+.btn:active {
+	box-shadow: none !important;
+	outline: none !important;
+}
+
+.form-control:focus {
+	box-shadow: none !important;
+	outline: none !important;
+}
+
+.form-control:focus {
+	border-color: #b5ae77;
+	box-shadow: 0 0 5px rgba(181, 174, 119, 0.5);
+}
