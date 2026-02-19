@@ -18,40 +18,7 @@
 }
 /* Left side bar end */
 
-/* Paragraph CSS */
-h2.head-title {
-	font-weight: bold;
-	margin-bottom: 20px;
-	color: #00254a;
-	text-transform: uppercase;
-}
-.text-bg {
-	background-color: #b5ae77;
-	padding: 20px;
-	border-radius: 8px;
-}
-.text-bg h3 {
-	color: #00254a;
-	font-size: 28px;
-	text-transform: uppercase;
-	font-weight: bold;
-}
-.text-bg p {
-	color: #00254a;
-	font-size: 16px;
-}
-.text-bg img {
-	width: 100%;
-	height: 250px;
-}
-.text-bg ul li a {
-	color: #00254a;
-	font-weight: 500;
-}
-.text-bg i {
-	color: #402f1c;
-}
-/* Paragraph CSS */
+
 
 /* MSME ACT CSS START HERE */
 .msme-act-section {
