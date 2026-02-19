@@ -30,8 +30,14 @@
 .ceo-desk .ceo-img {
 	max-height: auto;
 	object-fit: cover;
+	height: 375px;
 }
-
+.ceo-desk .our-moto {
+	width: 500px;
+	margin: 0px auto;
+	border: 2px solid #402f1c;
+	border-radius: 10px;
+}
 /* ceo desk end */
 
 /* vision mission start */
@@ -49,13 +55,10 @@
 .message-box-3 {
 	padding: 40px 0px;
 }
-.message-box {
+.ceo-message {
 	color: #1d3557;
-	background: #f9f6e6;
-	padding: 30px 20px;
-	margin: 20px 0;
+	background: #958d51;
 	border-radius: 8px;
-	box-shadow: 0 10px 25px rgba(181, 174, 119, 0.5);
 }
 .vision-img-slider {
 	margin-bottom: 40px;
@@ -184,5 +187,6 @@
 /* terms end */
 
 /* about section link css end here */
+
 
 
