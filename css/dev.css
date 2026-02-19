@@ -23,10 +23,10 @@
 .training-section .space {
     height: 60px;
 }
-/* .training-section img.tr-img {
-	width: auto;
-	height: auto;
-} */
+.training-section img.tr-img {
+	border: 4px solid #402f1c;
+	border-radius: 8px;
+}
 /* Trainig Section End here */
 
 /* Skill Trainig Section Start here */
@@ -36,6 +36,10 @@
 
 .skill-training-section .space {
     height: 60px;
+}
+.skill-training-section img.skill-tr-img {
+	border: 4px solid #402f1c;
+	border-radius: 8px;
 }
 /* Skill Trainig Section End here */
 
@@ -47,6 +51,15 @@
 .training-photo-section .space {
     height: 60px;
 }
+.training-photo-section .training-photo-slider #wowslider-container1 {
+	margin: auto 0px;
+	background-color: #534e2d;
+	width: 100%;
+	max-width: 768px;
+	border: 5px solid #534e2d;
+	border-radius: 10px;
+}
+
 /* Training Photo Section End Here */
 
 /* Import & Export Section Start Here */
@@ -57,6 +70,12 @@
 .import-export-section .space {
     height: 60px;
 }
+.import-export-section img.impo-expo-img {
+	width: 100%;
+	padding: 3px 6px 6px 3px;
+	border: 4px solid #402f1c;
+	border-radius: 8px;
+}
 /* Import & Export Section End Here */
 
 /* Business Mentoring Section Start Here */
@@ -66,5 +85,9 @@
 
 .mentor-section .space {
 	height: 60px;
+}
+.mentor-section img.mentor-img {
+	border: 4px solid #402f1c;
+	border-radius: 8px;
 }
 /* Business Mentoring Section End Here */

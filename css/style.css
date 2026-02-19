@@ -685,7 +685,7 @@ h2.head-title {
 	text-transform: uppercase;
 }
 .text-bg {
-	background-color: #b5ae77;
+	background-color: #958d51;
 	padding: 20px;
 	border-radius: 8px;
 }
@@ -699,6 +699,7 @@ h2.head-title {
 .text-bg p {
 	color: #00254a;
 	font-size: 16px;
+	font-weight: 600;
 }
 .text-bg img {
 	width: 100%;

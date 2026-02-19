@@ -24,6 +24,7 @@
 .csr-support-section .space {
 	height: 60px;
 }
+.csr-support-section 
 /* CSR Support Section End Here */
 
 /* CSR Activity Section Start Here */
@@ -43,5 +44,13 @@
 
 .csr-training .space {
     height: 60px;
+}
+.csr-training .table-responsive {
+	border: 1px solid #ffffff;
+	border-radius: 8px;
+	padding: 15px;
+}
+.csr-training .para-text {
+	margin-top: 20px;
 }
 /* CSR Training Section End Here */

@@ -24,4 +24,31 @@
 .associate-faculty-section .space {
     height: 60px;
 }
+.associate-faculty-section .course-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+.associate-faculty-section .text-bg {
+	background-color: #ffffff;
+	border: 2px solid #958d51;
+}
+.associate-faculty-section .course-item {
+	flex: 1 1 calc(33.333% - 20px);
+	border: 1px solid #958d51;
+	border-radius: 8px;
+	padding: 15px;
+	text-align: center;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.associate-faculty-section .course-item:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.associate-faculty-section .course-item span {
+	display: block;
+	font-size: 18px;
+	font-weight: 600;
+	color: #333;
+}
 /* Associate Faculty Start End */
