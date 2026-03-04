@@ -23,8 +23,8 @@ body {
 
 /* Top bar start */
 .top-bar {
-	background: #e4e1cd;
-	color: #534e2d;
+	background: #b5ae77;
+	color: #00254a;
 	font-size: 14px;
 }
 
@@ -255,37 +255,65 @@ body {
 
 /* hero slider start */
 
-.hero-slider img {
-	height: 40vh;
+.hero-section {
+	position: relative;
+	height: 60vh;
+	overflow: hidden;
+}
+
+.hero-section .carousel-item {
+	height: 60vh;
+}
+
+.hero-section .carousel-item img {
+	height: 90vh;
 	object-fit: cover;
 }
 
-/* Bottom box attached to carousel */
-.carousel-bottom-box {
+.overlay {
 	position: absolute;
-	bottom: -60px;
-	width: 60%;
-	z-index: 10;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
 }
 
-.carousel-bottom-box .container {
-	background: #ffffff;
-	padding: 25px 15px;
-	border-radius: 8px;
-	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+.hero-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
 }
 
-/* Bottom item styling */
-.bottom-item img {
-	width: 40px;
-	margin-bottom: 8px;
-}
-
-.bottom-item h6 {
+.hero-section .hero-btn-1 {
+	margin-top: 15px;
+	padding: 10px 30px;
+	border-radius: 30px;
+	background-color: #e4e1cd;
+	color: #1d3557;
 	font-weight: 600;
-	margin: 0;
+	transition: 0.3s ease;
+	border: none;
+}
+.hero-section .hero-btn-1:hover {
+	background-color: #746e3f;
+	color: #fff;
 }
 
+.hero-section .hero-btn-2 {
+	margin-top: 15px;
+	padding: 10px 30px;
+	border-radius: 30px;
+	color: #fff;
+	font-weight: 600;
+	transition: 0.3s ease;
+}
+.hero-section .hero-btn-2:hover {
+	background-color: #e4e1cd;
+	color: #1d3557;
+}
 /* Hero section end */
 
 /* activities section start */
@@ -563,8 +591,8 @@ body {
 	outline: none;
 }
 .form-control:focus {
-    box-shadow: none !important;
-    border-color: #00254a !important; /* normal grey border */
+	box-shadow: none !important;
+	border-color: #00254a !important; /* normal grey border */
 }
 /* Contact Form section end here */
 
@@ -626,7 +654,6 @@ body {
 	justify-content: center;
 	width: 42px;
 	height: 42px;
-	margin-right: 10px;
 	border-radius: 50%;
 	color: #00254a;
 	font-size: 25px;
@@ -736,7 +763,8 @@ body {
 
 /* Paragraph CSS */
 h2.head-title {
-	font-weight: bold;
+	font-size: 45px;
+	font-weight: 700;
 	margin-bottom: 20px;
 	color: #00254a;
 	text-transform: uppercase;
