@@ -16,6 +16,50 @@
 }
 /* Left side bar end */
 
+/* Job opportunity section css Start Here */
+.job-opp-section {
+	padding: 60px 0px;
+}
+.job-opp-section .space {
+	height: 60px;
+}
+/* Custom Accordion */
+.accordion-button {
+    font-weight:600;
+    background:#fff;
+    color:#333;
+}
+
+.accordion-button:not(.collapsed){
+    background:#00254a;
+    color:#fff;
+}
+
+.accordion-button:focus{
+    box-shadow:none;
+}
+
+/* Yellow title inside body */
+.job-title{
+    color:#f0b400;
+    font-weight:700;
+}
+
+/* Custom Button */
+.btn-custom{
+    border:2px solid #f0b400;
+    color:#000;
+    background:transparent;
+    padding:6px 20px;
+    border-radius:6px;
+}
+
+.btn-custom:hover{
+    background:#f0b400;
+    color:#fff;
+}
+/* Job opportunity section css End Here */
+
 /* Associate Faculty Start Here */
 .associate-faculty-section {
     padding: 60px 0px;

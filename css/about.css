@@ -182,6 +182,17 @@
 	height: 60px;
 }
 .terms-section h3 {
+	margin-bottom: 20px !important;
+	color: #1d3557;
+}
+ul li {
+	color: #1d3557;
+	font-weight: 600;
+}
+.terms-section ul li:last-child {
+	padding-bottom: 40px;
+}
+.terms-section ul li i {
 	color: #1d3557;
 }
 /* terms end */

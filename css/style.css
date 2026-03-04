@@ -373,19 +373,21 @@ body {
 
 /* Image slider*/
 .image-slider-box {
-  width: 100%;
-  height: 350px;
-  border: 6px solid #777;
-  overflow: hidden;
-  position: relative;
+	width: 100%;
+	height: 350px;
+	border: 6px solid #777;
+	overflow: hidden;
+	position: relative;
 }
 
 .image-slider-box img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  position: absolute;
-  transition: transform 0.8s ease, opacity 0.8s ease;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+	transition:
+		transform 0.8s ease,
+		opacity 0.8s ease;
 }
 /* Content Card */
 .sme-content {
@@ -509,6 +511,62 @@ body {
 }
 
 /* scheme section end */
+
+/* Contact Form section start here */
+.contact-section {
+	padding: 80px 0;
+	background-color: #f1faee;
+}
+.contact-section .contact-title {
+	font-size: 36px;
+	font-weight: 700;
+	color: #1d3557;
+	letter-spacing: 1px;
+}
+.contact-section h3 {
+	font-weight: 600;
+	color: #1d3557;
+	margin-bottom: 10px;
+}
+.contact-section p {
+	margin: 0px auto;
+	padding-bottom: 40px;
+	width: 100%;
+	max-width: 700px;
+	color: #1d3557;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.7;
+}
+.contact-section .contact-form {
+	background: #fff;
+	padding: 30px;
+	border-radius: 8px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+.contact-section iframe {
+	width: 600px;
+	height: 400px;
+	border: none;
+	border-radius: 8px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+.btn-custom {
+	border: 2px solid #00254a;
+	background: transparent;
+	padding: 8px 25px;
+	border-radius: 8px;
+}
+.btn-custom:hover {
+	background-color: #00254a;
+	color: #fff;
+	outline: none;
+}
+.form-control:focus {
+    box-shadow: none !important;
+    border-color: #00254a !important; /* normal grey border */
+}
+/* Contact Form section end here */
 
 /* footer section start */
 
@@ -675,7 +733,6 @@ body {
 	border: 5px solid #534e2d;
 	border-radius: 10px;
 }
-
 
 /* Paragraph CSS */
 h2.head-title {

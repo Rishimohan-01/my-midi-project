@@ -25,3 +25,69 @@
     height: 60px;
 }
 /* Certification Distribution section End */
+
+/* Jobseekr section start here */
+.jobseekr-section {
+	padding: 60px 0px;
+}
+.jobseekr-section .space {
+	height: 60px;
+}
+.job-form{
+    background:#fff;
+    padding:30px;
+    border-radius:8px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.form-control:focus{
+    box-shadow:none;
+    border-color:#00254a;
+}
+
+.btn-custom{
+    background-color:#00254a;
+    color:#fff;
+    padding:8px 25px;
+    border-radius:6px;
+    border:none;
+}
+
+.btn-custom:hover{
+    background-color:#001a33;
+}
+/* Jobseekr section end here */
+/* Enquiry section Start here */
+.enquiry-section {
+	padding: 60px 0px;
+}
+.enquiry-section .space {
+	height: 60px;
+}
+.enquiry-box{
+    background:#fff;
+    padding:30px;
+    border-radius:6px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Remove blue focus */
+.form-control:focus{
+    box-shadow:none;
+    border-color:#00254a;
+}
+
+/* Custom button */
+.btn-custom{
+    border:2px solid #00254a;
+    color:#00254a;
+    background:transparent;
+    padding:8px 25px;
+    border-radius:6px;
+}
+
+.btn-custom:hover{
+    background:#00254a;
+    color:#fff;
+}
+/* Enquiry section end here */
