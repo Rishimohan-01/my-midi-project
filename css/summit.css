@@ -1,3 +1,18 @@
+:root {
+  --primary-color: #e4e1cd;
+  --secondary-color: #b5ae77;
+  --text-color: #1d3557;
+  --dark-blue: #00254a;
+  --brown: #534e2d;
+  --dark-brown: #402f1c;
+  --white: #ffffff;
+  --light-gray: #f8f9fa;
+  --gold: #f0b400;
+  --medium-brown: #958d51;
+  --very-dark-blue: #001a33;
+  --dark-gray: #333;
+}
+
 /* Left side bar start */
 .left-sidebar {
 	border-radius: 8px;
