@@ -1,16 +1,32 @@
+/* Brand palette
+----------------------------
+primary: #0B6E4F
+primary-hover: #09573F
+accent: #F59E0B
+page-bg: #F8FAFC
+card-bg: #FFFFFF
+alt-section-bg: #ECFDF5
+heading: #0F172A
+body-text: #334155
+muted-text: #64748B
+border: #CBD5E1
+button-text: #FFFFFF
+---------------------------- 
+*/
+
 :root {
-  --primary-color: #e4e1cd;
-  --secondary-color: #b5ae77;
-  --text-color: #1d3557;
-  --dark-blue: #00254a;
-  --brown: #534e2d;
-  --dark-brown: #402f1c;
-  --white: #ffffff;
-  --light-gray: #f8f9fa;
-  --gold: #f0b400;
-  --medium-brown: #958d51;
-  --very-dark-blue: #001a33;
-  --dark-gray: #333;
+	--color-primary: #0b6e4f; /* #564c48 #00c31f #2d241f*/
+	--color-primary-hover: #09573f;
+	--color-accent: #f59e0b;
+	--color-page-bg: #f8fafc;
+	--color-card-bg: #ffffff;
+	--color-alt-bg: #ecfdf5;
+	--color-heading: #0f172a;
+	--color-body: #334155;
+	--color-muted: #64748b;
+	--color-border: #cbd5e1;
+	--color-button-text: #ffffff;
+	--shadow-primary: 0 12px 28px rgba(11, 110, 79, 0.35);
 }
 
 /* Left side bar start */
@@ -40,48 +56,49 @@
 }
 /* Custom Accordion */
 .accordion-button {
-    font-weight:600;
-    background:#fff;
-    color:#333;
+	font-weight: 600;
+	background: #fff;
+	color: #333;
 }
 
-.accordion-button:not(.collapsed){
-    background:#00254a;
-    color:#fff;
+.accordion-button:not(.collapsed) {
+	background: var(--color-body);
+	color: #fff;
 }
 
-.accordion-button:focus{
-    box-shadow:none;
+.accordion-button:focus {
+	box-shadow: none;
 }
 
 /* Yellow title inside body */
-.job-title{
-    color:#f0b400;
-    font-weight:700;
+.job-title {
+	color: var(--color-heading);
+	font-weight: 700;
 }
 
 /* Custom Button */
-.btn-custom{
-    border:2px solid #f0b400;
-    color:#000;
-    background:transparent;
-    padding:6px 20px;
-    border-radius:6px;
+.btn-custom {
+	border: 2px solid var(--color-primary);
+	color: var(--color-primary);
+	background: transparent;
+	padding: 6px 20px;
+	border-radius: 6px;
 }
 
-.btn-custom:hover{
-    background:#f0b400;
-    color:#fff;
+.btn-custom:hover {
+	border: 2px solid var(--color-primary);
+	background: var(--color-alt-bg);
+	color: var(--color-primary);
 }
 /* Job opportunity section css End Here */
 
 /* Associate Faculty Start Here */
 .associate-faculty-section {
-    padding: 60px 0px;
+	padding: 60px 0px;
 }
 
 .associate-faculty-section .space {
-    height: 60px;
+	height: 60px;
 }
 .associate-faculty-section .course-list {
 	display: flex;
@@ -89,16 +106,18 @@
 	gap: 20px;
 }
 .associate-faculty-section .text-bg {
-	background-color: #ffffff;
-	border: 2px solid #958d51;
+	background-color: var(--color-alt-bg);
+	border: 2px solid var(--color-border);
 }
 .associate-faculty-section .course-item {
 	flex: 1 1 calc(33.333% - 20px);
-	border: 1px solid #958d51;
+	border: 1px solid var(--color-border);
 	border-radius: 8px;
 	padding: 15px;
 	text-align: center;
-	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	transition:
+		transform 0.3s ease,
+		box-shadow 0.3s ease;
 }
 .associate-faculty-section .course-item:hover {
 	transform: translateY(-5px);
@@ -111,3 +130,61 @@
 	color: #333;
 }
 /* Associate Faculty Start End */
+
+/* Associate Trainer Section Start Here */
+
+.associate-train-section {
+	padding: 60px 0px;
+}
+.associate-train-section h2 {
+	font-size: 45px;
+}
+
+.midi-atc-table {
+	padding-bottom: 25px;
+}
+
+.midi-atc-table .custom-table {
+	border: 1px solid #ddd;
+}
+
+.midi-atc-table .custom-table th {
+	background-color: var(--color-alt-bg);
+	color: var(--color-heading);
+	text-align: center;
+	font-weight: 600;
+	padding: 12px;
+}
+
+.midi-atc-table.custom-table td {
+	padding: 12px;
+	vertical-align: middle;
+	border-top: 1px solid #ddd;
+}
+
+.midi-atc-table .custom-table tr td:first-child {
+	border-right: 1px solid #ddd;
+}
+
+.course-table {
+    padding-bottom: 25px;
+}
+
+.course-table .custom-table {
+	border: 1px solid #ddd;
+}
+
+.course-table .custom-table td {
+	vertical-align: middle;
+	border: 2px solid #ddd;
+}
+
+.course-table .custom-table tbody tr:nth-child(odd) td {
+	background-color: var(--color-alt-bg) !important;
+	color: var(--color-heading) !important;
+	font-weight: 500;
+}
+
+.course-table .custom-table tbody tr:nth-child(even) td {
+	background-color: var(--color-card-bg) !important;
+}

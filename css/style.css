@@ -15,7 +15,7 @@ button-text: #FFFFFF
 */
 
 :root {
-	--color-primary: #0b6e4f;
+	--color-primary: #0b6e4f;  /* #564c48 #00c31f #2d241f*/
 	--color-primary-hover: #09573f;
 	--color-accent: #f59e0b;
 	--color-page-bg: #f8fafc;
@@ -88,8 +88,29 @@ body {
 	margin: 0px;
 }
 
-.social-icons li {
+.top-bar ul li a {
+	color: var(--color-primary);
+	font-weight: 500;
+	transition: 0.3s ease;
+}
+
+.top-bar ul li a img {
+	width: 30px;
+	height: 30px;
+	object-fit: contain;
+}
+
+.top-bar ul li {
 	display: inline-block;
+	padding: 5px 8px;
+}
+
+.top-bar ul li:first-child {
+	padding-left: 0px;
+}
+
+.top-bar ul li:last-child {
+	padding-right: 0px;
 }
 
 /* Top bar end */
@@ -216,7 +237,7 @@ body {
 }
 
 .navbar .navbar-brand img {
-	height: 45px;
+	height: 55px;
 	border-radius: 10px;
 }
 
@@ -643,8 +664,8 @@ body {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	width: 42px;
-	height: 42px;
+	width: 32px;
+	height: 32px;
 	border-radius: 50%;
 	color: var(--color-primary);
 	font-size: 25px;
